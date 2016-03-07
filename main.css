@@ -1,0 +1,430 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 74.99%
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 96.33%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;
+    /* Firefox, other Gecko */
+    box-sizing: border-box;
+    /* Opera/IE 8+ */
+}
+
+.nav {
+    background-color: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+    height: 60px;
+    width: 100%;
+}
+
+.nav img {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    width: 30px;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    color: #000000;
+    font-family: "Segoe UI", "Helretica", "Arial";
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: 10px;
+    left: 100px;
+    padding: 15px;
+}
+
+.nav a:hover {
+    color: #FF8000;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+.container-fiuld {
+    position: relative;
+    top: 10px;
+    max-height: 680px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.article {
+    display: block;
+    margin: 100px 0px 100px 150px;
+}
+
+.article img {
+    border-width: 0;
+    opacity: 1;
+    margin: 30px;
+}
+
+.article img:hover {
+    opacity: 0.8;
+    border-color: #336666;
+}
+
+.clear {
+    clear: both;
+}
+
+.footer {
+    background-color: #272727;
+    min-height: 450px;
+    position: relative;
+    bottom: 0px;
+    z-index: 5;
+    margin-top: 150px;
+}
+
+.footer img {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.head {
+    border: 5px #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    left: 200px;
+    top: 80px;
+}
+
+.button1 {
+    background-color: #004B97;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+    z-index: 10;
+}
+
+.button1 a {
+    color: #FFFFFF;
+    font-family: Segoe UI;
+    font-size: 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 12px;
+    left: 14px;
+}
+
+.button1:hover {
+    background-color: #003D79;
+}
+
+.button2 {
+    border: 2px solid #E0E0E0;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    position: absolute;
+    top: 350px;
+    left: 280px;
+}
+
+.button2 a {
+    color: #E0E0E0;
+    font-family: Segoe UI;
+    font-size: 1em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
+.button2 a:hover {
+    color: #FFFFFF;
+}
+
+.profile h1 {
+    color: #FFFFFF;
+    font-family: Comic Sans MS;
+    font-size: 1.4em;
+    position: absolute;
+    top: 250px;
+    left: 230px;
+}
+
+.profile p {
+    color: #FFFFFF;
+    font-family: Segoe UI;
+    font-size: 1em;
+    position: absolute;
+    top: 280px;
+    left: 80px;
+    letter-spacing: 2px;
+    position: absolute;
+    top: 280px;
+    left: 200px;
+}
+
+.introduce {
+    color: #ffffff;
+    position: relative;
+    top: 90px;
+    left: 200px;
+}
+
+.introduce h1 {
+    font-family: Cambria;
+    font-size: 1.4em;
+    letter-spacing: 2px;
+}
+
+.introduce p {
+    font-family: Segoe UI;
+    font-size: 1em;
+    word-spacing: 2px;
+    line-height: 1.6em;
+}
+
+.instagram {
+    margin: 20px;
+    position: absolute;
+    right: 120px;
+    top: 60px;
+}
+
+.copyright {
+    text-decoration: none;
+    color: #5B5B5B;
+    font-family: Segoe UI;
+    font-size: 1em;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+}
+
+.button-top {
+    background-color: #FF8000;
+    width: 40px;
+    height: 40px;
+    border: 2px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+    z-index: 10;
+}
+
+.button-top:hover {
+    background-color: #000000;
+}
+
+.button-top a {
+    color: #ffffff;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+}
+
+#works {
+    visibility: hidden;
+    position: relative;
+    top: -50px;
+}
